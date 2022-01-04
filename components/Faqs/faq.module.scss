@@ -1,0 +1,231 @@
+.faq_container {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+  .header_sec {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    h1 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 50px;
+      color: #ffffff;
+    }
+  }
+  .faq_body {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    .faq_item_container {
+      background: #ffffff;
+      box-shadow: 2px 4px 12px #00000040;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      .header_container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        cursor: pointer;
+        h6 {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          color: #000000;
+          margin-bottom: 0;
+        }
+        img {
+          transform: rotate(180deg) !important;
+        }
+        .rotate {
+          transform: rotate(0deg) !important;
+        }
+      }
+      p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #000000;
+        padding: 1rem;
+      }
+    }
+  }
+  .action_container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    .image_container{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2rem;
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    h2 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      text-transform: capitalize;
+      color: #b250ff;
+    }
+    h1 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      color: #ffffff;
+    }
+    button {
+      background: linear-gradient(92.75deg, #FF5050 -18.11%, #4223A1 106.43%);
+      border-radius: 10px;
+      font-family: Poppins !important;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      color: #ffffff;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .faq_container {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    .header_sec {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem auto;
+      h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        color: #ffffff;
+        text-align: center;
+      }
+    }
+    .faq_body {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      padding: 10px;
+      .faq_item_container {
+        background: #ffffff;
+        box-shadow: 2px 4px 12px #00000040;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+        .header_container {
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 1rem;
+          cursor: pointer;
+          h6 {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            color: #000000;
+            margin-bottom: 0;
+          }
+          img {
+            transform: rotate(180deg) !important;
+          }
+          .rotate {
+            transform: rotate(0deg) !important;
+          }
+        }
+        p {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          color: #000000;
+          padding: 1rem;
+        }
+      }
+    }
+    .action_container {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 1rem;
+      margin-top: 2rem;
+      .image_container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+        img{
+          max-width: 100%;
+          height: auto;
+        }
+      }
+      h2 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        text-transform: capitalize;
+        color: #b250ff;
+        text-align: center;
+      }
+      h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        text-align: center;
+        color: #ffffff;
+        padding: 0 10px;
+      }
+      button {
+        background: linear-gradient(92.75deg, #FF5050 -18.11%, #4223A1 106.43%);
+        border-radius: 10px;
+        font-family: Poppins !important;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        color: #ffffff;
+      }
+    }
+  } 
+}

@@ -1,0 +1,107 @@
+{
+  "header_section": {
+    "image_1": "",
+    "image_2": "",
+    "image_3": "",
+    "image_4": "",
+    "image_5": ""
+  },
+  "header_after_image": "",
+  "wellcome_section": {
+    "image_left": "",
+    "image_right": "",
+    "title": "",
+    "description_1": "",
+    "description_2": "",
+    "description_3": ""
+  },
+  "middle_section": {
+    "image_1": "",
+    "image_2": ""
+  },
+  "perks_section": {
+    "title": "",
+    "description": "",
+    "perks_array": [
+      {
+        "image": "",
+        "text": ""
+      },
+      {
+        "image": "",
+        "text": ""
+      },
+      {
+        "image": "",
+        "text": ""
+      },
+      {
+        "image": "",
+        "text": ""
+      },
+      {
+        "image": "",
+        "text": ""
+      }
+    ]
+  },
+  "roadmap_section": {
+    "title_left": "",
+    "title_right": "",
+    "title_image": "",
+    "des_1": "",
+    "des_2": "",
+    "des_3": "",
+    "roadmap_array": [
+      {
+        "image_left": "",
+        "image_right": "",
+        "title": "",
+        "secondary_title": "",
+        "description": ""
+      },
+      {
+        "image_left": "",
+        "image_right": "",
+        "title": "",
+        "secondary_title": "",
+        "description": ""
+      },
+      {
+        "image_left": "",
+        "image_right": "",
+        "title": "",
+        "secondary_title": "",
+        "description": ""
+      },
+      {
+        "image_left": "",
+        "image_right": "",
+        "title": "",
+        "secondary_title": "",
+        "description": ""
+      }
+    ]
+  },
+  "footer_before_image": "",
+  "footer_section": {
+    "left_sec": {
+      "logo": "",
+      "social_icons": {
+        "youtube": "",
+        "instagram": "",
+        "discord": "",
+        "twitter": ""
+      }
+    },
+    "right_sec": {
+      "logo": "",
+      "social_icons": {
+        "youtube": "",
+        "instagram": "",
+        "discord": "",
+        "twitter": ""
+      }
+    }
+  }
+}

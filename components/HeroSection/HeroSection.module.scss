@@ -1,0 +1,146 @@
+.header_container {
+  max-width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+  .sec_left {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    .logo_container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        max-width: 25%;
+        height: 80%;
+      }
+    }
+    .is_colored {
+      font-family: MADE Outer Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 66px;
+      color: #b250ff;
+      margin-top: 1.5rem;
+    }
+    h1 {
+      font-family: MADE Outer Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 66px;
+      color: white;
+      margin-bottom: 0;
+    }
+    p {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      color: #ffffff;
+      text-align: center;
+    }
+    button {
+      width: 277px;
+      height: 52px;
+      background: #ffffff;
+      border-radius: 12px;
+      font-family: Montserrat !important;
+      font-style: italic !important;
+      font-weight: 600;
+      font-size: 18px;
+      color: #000000;
+      margin-top: 3rem;
+    }
+  }
+  .sec_right{
+    padding: 1rem;
+    img{
+      max-width: 95%;
+      height: 95%;
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .header_container {
+    max-width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    .sec_left {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      .logo_container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          max-width: 70%;
+          height: auto;
+        }
+      }
+      .is_colored {
+        font-family: MADE Outer Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: #b250ff;
+        margin-top: 1.5rem;
+        text-align: center;
+      }
+      h1 {
+        font-family: MADE Outer Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: white;
+        margin-bottom: 0;
+        text-align: center;
+      }
+      p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #ffffff;
+        text-align: center;
+      }
+      button {
+        width: 277px;
+        height: 52px;
+        background: #ffffff;
+        border-radius: 12px;
+        font-family: Montserrat !important;
+        font-style: italic !important;
+        font-weight: 600;
+        font-size: 18px;
+        color: #000000;
+        margin-top: 2rem;
+      }
+    }
+    .sec_right{
+      padding: 1rem;
+      img{
+        max-width: 100%;
+        height: auto;
+        margin-top: 60px;
+      }
+    }
+  } 
+}

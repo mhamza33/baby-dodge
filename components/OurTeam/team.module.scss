@@ -1,0 +1,167 @@
+.our_team_container {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+  .header_sec {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    h1 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 50px;
+      color: #ffffff;
+    }
+    p {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      color: #ffffff;
+      text-align: center;
+    }
+  }
+  .our_team_body {
+    width: 100%;
+    height: auto;
+    .team_item_container {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      .main_img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-family: Poppins;
+        font-style: normal;
+        // font-weight: 600;
+        font-size: 24px;
+        color: #ffffff;
+        margin-bottom: 0;
+      }
+      .social_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          margin: 10px;
+        }
+      }
+    }
+  }
+  .our_team_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    button {
+      width: 295px;
+      height: 68px;
+      background: #ff5050;
+      border-radius: 10px;
+      font-family: Poppins !important;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      color: #ffffff;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .our_team_container {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    .header_sec {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem auto;
+      h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        color: #ffffff;
+      }
+      p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #ffffff;
+        text-align: center;
+      }
+    }
+    .our_team_body {
+      width: 100%;
+      height: auto;
+      .team_item_container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+        .main_img {
+          max-width: 100%;
+          height: auto;
+          margin-bottom: 1rem;
+        }
+        p {
+          font-family: Poppins;
+          font-style: normal;
+          // font-weight: 600;
+          font-size: 24px;
+          color: #ffffff;
+          margin-bottom: 0;
+        }
+        .social_container {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            margin: 10px;
+          }
+        }
+      }
+    }
+    .our_team_footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      button {
+        width: 100%;
+        height: 50px;
+        background: #ff5050;
+        border-radius: 10px;
+        font-family: Poppins !important;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        color: #ffffff;
+      }
+    }
+  }
+}

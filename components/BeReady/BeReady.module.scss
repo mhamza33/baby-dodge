@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  padding: 40px 120px;
+  .textContainer {
+    h1 {
+      font-family: MADE Outer Sans !important;
+      font-family: sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 42px;
+      color: #ffffff;
+      span {
+        color: #b250ff;
+        display: block;
+      }
+    }
+  }
+  .imgContainer {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 100%;
+    .block {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      img {
+        width: 266px;
+        height: 266px;
+      }
+      p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 27px;
+        color: #ffffff;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    padding: 2rem;
+    .textContainer {
+      width: 100%;
+      margin-top: 2rem;
+      h1 {
+        font-family: MADE Outer Sans !important;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        color: #ffffff;
+        text-align: center;
+        span {
+          color: #b250ff;
+          display: block;
+        }
+      }
+    }
+    .imgContainer {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      justify-content: space-between;
+      width: 100%;
+      .block {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        img {
+          width: 266px;
+          height: 266px;
+        }
+        p {
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 22px;
+          line-height: 27px;
+          color: #ffffff;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+   
+}

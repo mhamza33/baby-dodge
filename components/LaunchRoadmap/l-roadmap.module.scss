@@ -1,0 +1,106 @@
+.launch_roadmap_container {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+  .header_sec {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    h1 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 50px;
+      color: #ffffff;
+    }
+    p {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      color: #ffffff;
+      text-align: center;
+    }
+  }
+  .launch_roadmap_body{
+      max-width: 80%;
+      margin: 0 auto;
+    .timeline_item {
+        h3 {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          color: #ffffff;
+        }
+        p {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          color: #ffffff;
+        }
+      }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .launch_roadmap_container {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    .header_sec {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 2rem auto;
+      h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        color: #ffffff;
+      }
+      p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px;
+      }
+    }
+    .launch_roadmap_body{
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+      .timeline_item {
+          h3 {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            color: #ffffff;
+          }
+          p {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            color: #ffffff;
+          }
+        }
+    }
+  }
+}

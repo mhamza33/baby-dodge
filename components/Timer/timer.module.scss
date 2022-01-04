@@ -1,0 +1,130 @@
+@media only screen and (min-width: 768px) {
+  .timer_container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .timer_content {
+      width: 70%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        color: #ffffff;
+      }
+      .timer_items_container {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .timer_item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          h2 {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 35px;
+            color: #ffffff;
+            margin-bottom: 5px;
+          }
+        }
+      }
+      .btn_container {
+          margin-top: 2rem;
+        button {
+          background: linear-gradient(
+            93.17deg,
+            #761ab7 -5.56%,
+            #38249d 113.34%
+          );
+          border-radius: 10px;
+          font-family: Poppins !important;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .timer_container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .timer_content {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        color: #ffffff;
+        text-align: center;
+      }
+      .timer_items_container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 1rem;
+        .timer_item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          h2 {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            color: #ffffff;
+            margin-bottom: 5px;
+          }
+        }
+      }
+      .btn_container {
+          margin-top: 2rem;
+          padding-bottom: 2rem;
+        button {
+          background: linear-gradient(
+            93.17deg,
+            #761ab7 -5.56%,
+            #38249d 113.34%
+          );
+          border-radius: 10px;
+          font-family: Poppins !important;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          color: #ffffff;
+        }
+      }
+    }
+  } 
+}
