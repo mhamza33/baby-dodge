@@ -6,9 +6,9 @@ const NavLg = () => {
   return (
     <div className={styles.nav_lg_container}>
       <div className={styles.logoContainer}>
-        <h2>BD</h2>
-        <img src="/Assets/header/headerImage.png" />
-        <h2>MC</h2>
+        <h2>RA</h2>
+        <img src="/logo.png" />
+        <h2>YC</h2>
       </div>
 
       <div className={styles.rightContainer}>

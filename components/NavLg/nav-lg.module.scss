@@ -16,14 +16,19 @@
     // }
     .logoContainer {
       display: flex;
+      width: 30%;
       align-items: center;
       h2 {
         margin: 0px;
         font-family: MADE Outer Sans !important;
         font-style: normal;
         font-weight: bold;
-        font-size: 66px;
+        font-size: 50px;
         color: #FFFFFF;
+      }
+      img{
+        width: 16%;
+        height: 10%;
       }
     }
     .rightContainer {
